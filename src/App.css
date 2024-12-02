@@ -1,0 +1,36 @@
+section {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    margin: 0 15px;
+
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+    border: 1px solid black;
+
+}
+
+p {
+    display: flex;
+}
+
+input[type=number] {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    appearance: none;
+
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 6px;
+    flex-basis: 40px;
+
+}
